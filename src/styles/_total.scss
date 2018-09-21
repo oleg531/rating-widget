@@ -1,0 +1,43 @@
+.total{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+
+    >div{
+        margin: 5px 0;
+        flex-grow: 1;
+        padding: 0 5px;
+    }
+
+    .logo{
+        img{
+            height: 80px;
+        }
+    }
+    
+    .score{
+        font-size: 30px;
+    }
+    
+    .stars{
+        img{
+            height: 30px;
+        }
+    } 
+    
+    .toggle-mode{
+        height: 20;
+        font-size: 14px;
+
+        span{
+            color: #000;
+            cursor: pointer;
+
+            &:hover{
+                color: #00b67a;
+            }
+        }
+    }
+}
+

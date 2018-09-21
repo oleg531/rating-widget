@@ -1,0 +1,16 @@
+.widget-container{
+    width:400px;
+    height: 200px;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    background-color: #fff;
+
+    .hide{
+        display: none !important;
+    }
+
+    @import 'total';
+    @import 'slide';
+}
+
+
+
